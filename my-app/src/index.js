@@ -9,7 +9,6 @@ class Square extends React.Component {
         this.state = {
             value: null,
         };
-
     }
 
     render() {
@@ -88,13 +87,21 @@ class Square extends React.Component {
 
             //alert(this.isOver("X", squares))
             
-
         }
-
-
-
-
       }
+
+
+    newGame(){
+
+      this.setState({
+        turn: "X",
+        squares: Array(9).fill(null),
+        win: null,
+      })
+            
+
+
+    }
 
 
     renderSquare(i) {
@@ -129,6 +136,11 @@ class Square extends React.Component {
           </div>
 
           <div className="result">{win}</div>
+
+          <button  onClick={() => this.newGame()}>
+            New Game
+          </button>
+
         </div>
 
         
