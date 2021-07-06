@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Flip from 'react-reveal/Flip';
 import './index.css';
 
 
@@ -18,6 +19,7 @@ class Content extends React.Component {
     render() {
         const color = this.props.color
         return (
+        <Flip top duration={3000}>
           <div className="content" style={{
             backgroundColor: color}}>
             <h1>
@@ -25,7 +27,7 @@ class Content extends React.Component {
             </h1>
             {/* {alert(this.props.color)} */}
           </div>
-          
+        </Flip>  
         );
     }  
 }

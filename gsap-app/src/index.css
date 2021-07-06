@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+}
+body {
+  background-color:whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+
+.cont{
+  background-color: skyblue;
+  height: 85vh;
+  z-index: 1;
+  
+}
+
+
+#box {
+  background-color: #88ce02;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+ 
+.boxSmall {
+  position: absolute;
+  background-color: #70a40b;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10px;
+  height: 30px;
+  z-index: 2;
+}
+ 
+.boxTiny {
+  background-color: #577a14;
+  height: 50px;
+  bottom: 0;
+  right: 0;
+  left: auto;
+  z-index: 3;
+}
