@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import { Controller, Scene } from 'react-scrollmagic';
-//import { Tween, Timeline } from 'react-gsap';
+import { Tween, Timeline } from 'react-gsap';
 
 class Content extends React.Component {
 

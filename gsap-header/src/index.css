@@ -1,0 +1,112 @@
+
+/* https://codepen.io/mxexo/pen/dxLac?editors=1100 */
+
+.cont{
+  background-color: skyblue;
+  height: 85vh;
+  z-index: 1;
+  
+}
+
+
+
+
+.allBanner{
+  background-color: yellow;
+  width: 100vw;
+  height: 30vh;
+  display: inline-block;
+}
+
+
+.bannerAni{
+  background-color:greenyellow;
+  width: 30vh;
+  height: 30vh;
+  display: inline-block;
+}
+
+.bannerCode{
+
+  background-color:black;
+  width: calc(100vw - 30vh);
+  height: 30vh;
+  display: inline-block;
+
+}
+
+#bar {
+  width: calc(100vw - 30vh);
+  height: 25px;
+  background-color: #DAD9D9;
+
+}
+#red {
+  background-color: #E94B35;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+  position:relative;
+}
+
+#yellow {
+  background-color: #f0f000;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+  position:relative;
+}
+#green {
+  background-color: #1AAF5C;
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+  position:relative;
+}
+
+#screen {
+  background-color: #33485E;
+  width: calc(100vw - 30vh);
+  height: calc(30vh - 25px);
+  overflow: hidden;
+}
+
+
+.font {
+  margin-top: 0;
+  color: #fff;
+  font-family: monospace;
+  font-size: 15px;
+  text-align: left;
+  position: static;
+}
+/* #screen {
+  background-color: #33485E;
+  width: calc(100vw - 30vh);
+  height: calc(30vh - px);
+  margin: 0 auto;
+  padding: 1px;
+}
+
+.font {
+  color: #fff;
+  font-family: monospace;
+  font-size: 15px;
+  text-align: left;
+  position: static;
+} */
+
+
+
+p{
+  color: chartreuse;
+}
